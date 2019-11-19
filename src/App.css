@@ -2,13 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +15,73 @@
   color: white;
 }
 
+.Main-title{
+  color: #28A745;
+}
+
+.Preview-header {
+  background-color: #282c34;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Footer-div{
+  padding: 3em;
+}
+
+.UL-Box{
+  border: 1px solid black !important;
+  background-color: #282c34;
+  padding: 10px;
+  padding-top: 5%;
+  width: auto !important;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5em;
+  list-style-type:none; 
+}
+.LI-Box {
+  /**border: 1px solid black !important;**/
+  color: black;  
+  background-color: white;
+
+ /** border: 2px solid rgb(236, 229, 229); **/
+ 
+  padding: 10px;
+  width:auto;
+  height: auto !important;
+  cursor: pointer; 
+
+}
+
+.standard-frame {
+  height: 45vh !important;
+  width: 45vh !important;
+}
+.App-body {
+  background-color: #364970;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #09d3ac;
+}
+.Oneline-Box{
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  padding: 1em ;
 }
