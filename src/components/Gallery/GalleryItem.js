@@ -21,13 +21,13 @@ class GalleryItem extends Component {
           {this.props.item.hasDiscount ? "Special Discount!!" : ""}
         </Badge>
         <br />
-        {this.props.item.name} - ( {this.props.item.marathiTitle} ) <br />
+        <h3>{this.props.item.name} <br/> ( {this.props.item.marathiTitle} ) <br />
         &#x20B9;{" "}
         <span className="Price-holder">
           {" "}
           <b>{this.props.item.price}</b>{" "}
         </span>{" "}
-        Per {this.props.item.unit ? this.props.item.unit : "Kg"}
+        Per {this.props.item.unit ? this.props.item.unit : "Kg"} </h3>
       </div>
     );
   }

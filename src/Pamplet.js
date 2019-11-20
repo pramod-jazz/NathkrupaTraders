@@ -18,6 +18,7 @@ class Pamplet extends Component {
               <Col xs={2} md={12}>
                 <Image src={logo} className="" roundedCircle />
                 <h1 className="Main-title">Nathkrupa Daily Fresh</h1>
+                <h2 className="Main-title2">Fresh and Straight from farms to your Doorstep!!</h2>
                 <h2>For Orders Please Reply via Whatsapp on +919970449991 </h2>
               </Col>
             </Row>
